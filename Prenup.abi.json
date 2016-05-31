@@ -1,0 +1,211 @@
+[
+  {
+    "constant": true,
+    "inputs": [
+      
+    ],
+    "name": "WEI_PER_ETHER",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      
+    ],
+    "name": "husbandAddress",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      
+    ],
+    "name": "accept",
+    "outputs": [
+      
+    ],
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      
+    ],
+    "name": "withdraw",
+    "outputs": [
+      
+    ],
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      
+    ],
+    "name": "marriageDate",
+    "outputs": [
+      {
+        "name": "",
+        "type": "string"
+      }
+    ],
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      
+    ],
+    "name": "theWife",
+    "outputs": [
+      {
+        "name": "",
+        "type": "string"
+      }
+    ],
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      
+    ],
+    "name": "theHusband",
+    "outputs": [
+      {
+        "name": "",
+        "type": "string"
+      }
+    ],
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      
+    ],
+    "name": "wifeAddress",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_status",
+        "type": "string"
+      }
+    ],
+    "name": "changeStatus",
+    "outputs": [
+      
+    ],
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      
+    ],
+    "name": "ipfsHash",
+    "outputs": [
+      {
+        "name": "",
+        "type": "string"
+      }
+    ],
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      
+    ],
+    "name": "marriageStatus",
+    "outputs": [
+      {
+        "name": "",
+        "type": "string"
+      }
+    ],
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      
+    ],
+    "name": "isSigned",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_hash",
+        "type": "string"
+      }
+    ],
+    "name": "changeIPFSHash",
+    "outputs": [
+      
+    ],
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "_marriageStatus",
+        "type": "string"
+      },
+      {
+        "name": "_marriageDate",
+        "type": "string"
+      },
+      {
+        "name": "_ipfsHash",
+        "type": "string"
+      },
+      {
+        "name": "_theHusband",
+        "type": "string"
+      },
+      {
+        "name": "_theWife",
+        "type": "string"
+      },
+      {
+        "name": "_husbandAddress",
+        "type": "address"
+      },
+      {
+        "name": "_wifeAddress",
+        "type": "address"
+      }
+    ],
+    "type": "constructor"
+  }
+]
