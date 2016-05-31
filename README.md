@@ -6,5 +6,7 @@ The architecture of this is simple. I have put a document on IPFS which serves a
 In the smart contract, both I and my fiance need to "accept" the terms and conditions by calling the method "accept" from our own personal addresses, which are again stored in the smart contract.
 
 Address of the Smart Contract - 0x5657b8d985be88af0f3d2dc064e2db784071ae1c 
-IPFS Hash of the document - 
-Document (same as IPFS) on Google Drive - 
+
+IPFS Hash of the document - QmVvxZMeQn53uzTEETZSGX8iNcm9DDjKJMqdSWdMsfKzS8
+
+Document (same as IPFS) on Google Drive - https://drive.google.com/file/d/0B1MEGeLr7lWiNEE2U2lGdGFvSm8/view?usp=sharing
