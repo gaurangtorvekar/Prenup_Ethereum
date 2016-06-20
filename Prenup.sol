@@ -19,7 +19,7 @@ contract prenup{
 	bool husbandSigned;
 
     // This is the constructor, called while creating the contract
-	function prenup(string _marriageStatus, string _marriageDate, string _ipfsHash, string _theHusband, string _theWife, address _husbandAddress, address _wifeAddress){
+	function prenup(string _marriageStatus, string _marriageDate, string _ipfsHash, address _owner, string _theHusband, string _theWife, address _husbandAddress, address _wifeAddress){
 		marriageStatus = _marriageStatus;
 		marriageDate = _marriageDate;
 		ipfsHash = _ipfsHash;
@@ -27,7 +27,7 @@ contract prenup{
 		theWife = _theWife;
 		husbandAddress = _husbandAddress;
 		wifeAddress = _wifeAddress;
-		owner = msg.sender;
+		owner = _owner;
 		amountInContract += msg.value;
 	}
 
