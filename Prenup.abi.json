@@ -190,6 +190,10 @@
         "type": "string"
       },
       {
+        "name": "_owner",
+        "type": "address"
+      },
+      {
         "name": "_theHusband",
         "type": "string"
       },
