@@ -15,8 +15,8 @@ contract prenup{
 	uint public constant WEI_PER_ETHER = 1000000000000000000;
 
 	bool public isSigned;
-	bool wifeSigned;
-	bool husbandSigned;
+	bool public wifeSigned;
+	bool public husbandSigned;
 
     // This is the constructor, called while creating the contract
 	function prenup(string _marriageStatus, string _marriageDate, string _ipfsHash, address _owner, string _theHusband, string _theWife, address _husbandAddress, address _wifeAddress){
